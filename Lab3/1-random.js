@@ -1,6 +1,6 @@
 "use strict";
 const random = (min, max) => {
-  if (min === undefined) {
+  if (max === undefined) {
     max = min;
     min = 0;
   }
